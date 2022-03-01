@@ -1,6 +1,6 @@
 # What's App daily Message
 
-An application to send a message at a certain time to a certain what's app contact
+An application that sends a message at a specific time to a certain what's app contact
 
  ### Dependencies
 
@@ -33,3 +33,4 @@ npm run start 123456789 "10:32:11" "Hello World"
 
 **NOTE**: The phone number should include the country code without the + sign.
 
+LICENSE: [GNU General Public License v3.0](LICENSE)
