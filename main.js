@@ -17,6 +17,7 @@ client.on('qr', qr => {
 });
 
 client.on('ready', () => {
+    console.log('Logged succesfully');
     setInterval(attemptToSendMessage, 1000);
 });
 
@@ -28,8 +29,8 @@ client.initialize();
 
 function attemptToSendMessage() {
    if(isItTime()) {
-        client.sendMessage(`34${phonenumber}@c.us`, message);
-        console.log('NIGHTMARE SLAIN');
+        client.sendMessage(`${phonenumber}@c.us`, message);
+        console.log('MESSAGE SENT');
    }
 }
 
